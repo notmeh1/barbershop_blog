@@ -1,4 +1,9 @@
 @charset "UTF-8";
+html {
+  margin: 0;
+  padding: 0;
+}
+
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10728,6 +10733,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar {
+  background: black;
 }
 
 /*# sourceMappingURL=main.css.map */
