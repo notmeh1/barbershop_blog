@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 html {
   margin: 0;
   padding: 0;
@@ -10736,6 +10737,73 @@ textarea.form-control-lg {
 }
 .navbar {
   background: black;
+}
+.navbar-nav__active {
+  color: orange !important;
+}
+
+.bg-hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bg-hero__h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 70px;
+  font-style: italic;
+}
+
+.article {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.sharebtn {
+  border-radius: 20px;
+}
+
+.naomi {
+  border-top: 1.5px solid lightgray;
+}
+.naomi__img {
+  border-radius: 130px;
+}
+.naomi__name {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+.naomi__email {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #D76C69;
+}
+.naomi__info {
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+}
+
+.pag {
+  background-color: #E6E7E7;
+  height: 134px;
+}
+.pag__pagination-previous {
+  border-radius: 20px 0 0 20px !important;
+}
+.pag__pagination-next {
+  border-radius: 0 20px 20px 0 !important;
+}
+.pag__pagination-button {
+  color: #000000;
+}
+
+.footer {
+  height: 206px;
 }
 
 /*# sourceMappingURL=main.css.map */

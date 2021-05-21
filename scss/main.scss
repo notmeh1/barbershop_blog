@@ -1,7 +1,84 @@
 @import "base/reset";
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+    
 .navbar {
     background: black;
-    
+    &-nav {
+        &__active {
+            color:orange !important;
+        }
+    }
+}
+
+.bg-hero {
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+   &__h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        font-size: 70px;
+        font-style: italic;
+    }
+}
+
+.article {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.sharebtn {
+    border-radius: 20px;
+}
+
+.naomi {
+    border-top: 1.5px solid lightgray;
+    &__img {
+        border-radius: 130px;
+    }
+    &__name {
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    &__email {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #D76C69;
+    }
+    &__info {
+        font-family: 'Roboto', sans-serif;
+        color: #707070;
+    }
+}
+
+.pag {
+    background-color: #E6E7E7;
+    height: 134px;
+    &__pagination{
+
+        &-previous {
+            border-radius: 20px 0 0 20px !important;
+        }
+
+        &-next {
+            border-radius: 0 20px 20px 0 !important;
+        }
+
+        &-button{
+            color:#000000;
+
+        }
+    }
+}
+
+.footer {
+    height: 206px;
 }
